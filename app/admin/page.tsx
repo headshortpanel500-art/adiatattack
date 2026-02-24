@@ -151,7 +151,7 @@ const AdminPanel = () => {
               <Users className="w-5 h-5" />
               <span className="font-bold">Users</span>
             </a>
-            <a href="/" className="flex items-center gap-3 px-4 py-3 text-slate-400 hover:bg-violet-500/10 rounded-2xl transition-all">
+            <a href="#" className="flex items-center gap-3 px-4 py-3 text-slate-400 hover:bg-violet-500/10 rounded-2xl transition-all">
               <Settings className="w-5 h-5" />
               <span className="font-bold">Settings</span>
             </a>
