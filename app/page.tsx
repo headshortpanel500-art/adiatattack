@@ -138,7 +138,7 @@ const LoginPage = () => {
             {isDarkMode ? 'ACCESS TO NUCLEAR' : 'ACCESS TO NUCLEAR'}
           </h2>
           <p className={`text-sm ${isDarkMode ? 'text-slate-400' : 'text-amber-600'}`}>
-            {isDarkMode ? '⚡ Walcome to ADIAT nuclear facility' : '🌸 Enter the nuclear facility'}
+            {isDarkMode ? '⚡ Walcome to ADIAT nuclear Attack' : '🌸 Enter the nuclear Attack'}
           </p>
         </div>
 
