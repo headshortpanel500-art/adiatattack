@@ -104,6 +104,7 @@ const AdminPanel = () => {
 
    const handleLogout = async () => {
     await fetch('/api/logout');
+    router.replace('/');
   };
 
   return (
