@@ -8,7 +8,7 @@ export function middleware(request: NextRequest) {
 
   // ১. অলরেডি লগইন থাকলে লগইন পেজে যেতে দিবে না
   if (isLoggedIn && pathname === '/') {
-    return NextResponse.redirect(new URL(userRole === 'admin' ? '/admin' : '/dashboard', request.url));
+    return NextResponse.redirect(new URL(userRole === '' ? '/admin' : '/dashboard', request.url));
   }
 
   // ২. লগইন না থাকলে প্রোটেক্টেড পেজে যেতে দিবে না
