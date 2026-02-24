@@ -102,7 +102,7 @@ const AdminPanel = () => {
     return matchesSearch && matchesFilter;
   });
 
-   const handleLogout = async () => {
+ const handleLogout = async () => {
     await fetch('/api/logout');
     router.replace('/');
   };
