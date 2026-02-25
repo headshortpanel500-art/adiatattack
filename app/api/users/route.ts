@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     const newUser = await User.create({ 
       email, 
       password, 
-      balance: 10, 
+      balance: 0, 
       isBanned: false 
     });
     
